@@ -1,0 +1,46 @@
+{
+  "name": "ordo",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"turbo dev --filter=web\" \"turbo dev --filter=agents\"",
+    "dev:agents": "turbo dev --filter=agents",
+    "dev:web": "turbo dev --filter=web",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.3",
+    "@tsconfig/recommended": "^1.0.13",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-no-instanceof": "^1.0.1",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1",
+    "tsx": "^4.21.0",
+    "turbo": "^2.8.1",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@10.6.3",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@composio/core": "^0.6.2",
+    "@composio/langchain": "^0.6.2",
+    "@langchain/cerebras": "^1.0.1",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.13.4",
+    "bs58": "^6.0.0",
+    "helius-sdk": "^2.1.0",
+    "lru-cache": "^11.2.5",
+    "openai": "^6.17.0",
+    "solana-agent-kit": "^2.0.10",
+    "zod": "^4.3.6"
+  }
+}

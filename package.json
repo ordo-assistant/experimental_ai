@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm langgraph dev",
+    "start:agent": "node src/agent-cerebras.js",
+    "start:multi": "node src/multi-agent.js"
+  },
+  "dependencies": {
+    "@composio/core": "^0.6.2",
+    "@composio/langchain": "^0.6.2",
+    "@langchain/anthropic": "^1.3.13",
+    "@langchain/cerebras": "^1.0.1",
+    "@langchain/core": "^1.1.18",
+    "@langchain/langgraph": "^1.1.2",
+    "@langchain/mcp-adapters": "^1.1.2",
+    "@langchain/openai": "^1.2.4",
+    "helius-sdk": "^2.1.0",
+    "langchain": "^1.2.16"
+  },
+  "devDependencies": {
+    "@langchain/langgraph-cli": "^1.1.11"
+  }
+}

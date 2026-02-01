@@ -1,0 +1,26 @@
+{
+  "node_version": "20",
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "supervisor": "./apps/agents/src/agents/hierarchy/supervisor.agent.ts:app",
+    "composio_coordinator": "./apps/agents/src/agents/hierarchy/composio-coordinator.agent.ts:app",
+    "web3_coordinator": "./apps/agents/src/agents/hierarchy/web3-coordinator.agent.ts:app",
+    "simple_agent": "./apps/agents/src/agents/basic/simple.agent.ts:app",
+    "composio_meta": "./apps/agents/src/agents/composio/meta.agent.ts:app",
+    "github_agent": "./apps/agents/src/agents/composio/github.agent.ts:app",
+    "openrouter_agent": "./apps/agents/src/agents/llm/openrouter.agent.ts:app",
+    "openrouter_tools": "./apps/agents/src/agents/llm/openrouter-tools.agent.ts:app",
+    "tavily_agent": "./apps/agents/src/agents/search/tavily.agent.ts:app",
+    "solana_agent": "./apps/agents/src/agents/web3/solana.agent.ts:app",
+    "web3_agent": "./apps/agents/src/agents/web3/web3.agent.ts:app",
+    "godmode_agent": "./apps/agents/src/agents/web3/godmode.agent.ts:app",
+    "ultimate_agent": "./apps/agents/src/agents/web3/ultimate.agent.ts:app",
+    "agent": "./apps/agents/src/agents/prebuilt/react-agent/graph.ts:graph",
+    "memory_agent": "./apps/agents/src/agents/prebuilt/memory-agent/graph.ts:graph",
+    "research_agent": "./apps/agents/src/agents/prebuilt/research-agent/graph.ts:graph",
+    "retrieval_agent": "./apps/agents/src/agents/prebuilt/retrieval-agent/graph.ts:graph"
+  },
+  "env": ".env"
+}

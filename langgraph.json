@@ -1,0 +1,8 @@
+{
+  "node_version": "20",
+  "graphs": {
+    "agent": "./src/agent-cerebras.js:app",
+    "multi_agent": "./src/multi-agent.js:app"
+  },
+  "env": ".env"
+}

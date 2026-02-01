@@ -1,0 +1,152 @@
+# Composio Documentation
+
+> Composio powers 800+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.
+
+## Get Started
+
+
+- https://docs.composio.dev/docs/quickstart.md
+
+### Providers
+
+- https://docs.composio.dev/docs/providers/anthropic.md
+- https://docs.composio.dev/docs/providers/crewai.md
+- https://docs.composio.dev/docs/providers/google.md
+- https://docs.composio.dev/docs/providers/langchain.md
+- https://docs.composio.dev/docs/providers/llamaindex.md
+- https://docs.composio.dev/docs/providers/mastra.md
+- https://docs.composio.dev/docs/providers/openai-agents.md
+- https://docs.composio.dev/docs/providers/openai.md
+- https://docs.composio.dev/docs/providers/vercel.md
+- https://docs.composio.dev/docs/providers/custom-providers.md
+- https://docs.composio.dev/docs/providers/custom-providers/python.md
+- https://docs.composio.dev/docs/providers/custom-providers/typescript.md
+
+## Core Concepts
+
+- https://docs.composio.dev/docs/users-and-sessions.md
+- https://docs.composio.dev/docs/authentication.md
+- https://docs.composio.dev/docs/tools-and-toolkits.md
+
+## Getting Started
+
+- https://docs.composio.dev/docs/configuring-sessions.md
+
+### Authenticating Users
+
+- https://docs.composio.dev/docs/authenticating-users/in-chat-authentication.md
+- https://docs.composio.dev/docs/authenticating-users/manually-authenticating.md
+
+### Toolkits
+
+- https://docs.composio.dev/docs/toolkits/enable-and-disable-toolkits.md
+- https://docs.composio.dev/docs/toolkits/fetching-tools-and-toolkits.md
+
+## Guides
+
+- https://docs.composio.dev/docs/white-labeling-authentication.md
+- https://docs.composio.dev/docs/managing-multiple-connected-accounts.md
+- https://docs.composio.dev/docs/using-custom-auth-configuration.md
+
+## Features
+
+- https://docs.composio.dev/docs/triggers.md
+- https://docs.composio.dev/docs/cli.md
+- https://docs.composio.dev/docs/single-toolkit-mcp.md
+
+## Direct Tool Execution Guides
+
+### Tools
+
+- https://docs.composio.dev/docs/tools-direct/authenticating-tools.md
+- https://docs.composio.dev/docs/tools-direct/custom-tools.md
+- https://docs.composio.dev/docs/tools-direct/executing-tools.md
+- https://docs.composio.dev/docs/tools-direct/fetching-tools.md
+- https://docs.composio.dev/docs/tools-direct/toolkit-versioning.md
+- https://docs.composio.dev/docs/tools-direct/modify-tool-behavior/after-execution-modifiers.md
+- https://docs.composio.dev/docs/tools-direct/modify-tool-behavior/before-execution-modifiers.md
+- https://docs.composio.dev/docs/tools-direct/modify-tool-behavior/schema-modifiers.md
+
+### Auth Configuration
+
+- https://docs.composio.dev/docs/auth-configuration/connected-accounts.md
+- https://docs.composio.dev/docs/auth-configuration/custom-auth-configs.md
+- https://docs.composio.dev/docs/auth-configuration/custom-auth-params.md
+- https://docs.composio.dev/docs/auth-configuration/programmatic-auth-configs.md
+
+## Resources
+
+- https://docs.composio.dev/docs/debugging-info.md
+
+### Migration Guide
+
+- https://docs.composio.dev/docs/migration-guide.md
+- https://docs.composio.dev/docs/migration-guide/new-sdk.md
+- https://docs.composio.dev/docs/migration-guide/tool-router-beta.md
+- https://docs.composio.dev/docs/migration-guide/toolkit-versioning.md
+
+### Troubleshooting
+
+- https://docs.composio.dev/docs/troubleshooting/api.md
+- https://docs.composio.dev/docs/troubleshooting/authentication.md
+- https://docs.composio.dev/docs/troubleshooting/cli.md
+- https://docs.composio.dev/docs/troubleshooting/dashboard.md
+- https://docs.composio.dev/docs/troubleshooting.md
+- https://docs.composio.dev/docs/troubleshooting/mcp.md
+- https://docs.composio.dev/docs/troubleshooting/sdks.md
+- https://docs.composio.dev/docs/troubleshooting/tools.md
+- https://docs.composio.dev/docs/troubleshooting/triggers.md
+
+## Examples
+
+- https://docs.composio.dev/examples/fast-api.md
+- https://docs.composio.dev/examples/gmail-labeler.md
+- https://docs.composio.dev/examples/hono.md
+- https://docs.composio.dev/examples.md
+- https://docs.composio.dev/examples/slack-summariser.md
+- https://docs.composio.dev/examples/supabase-sql-agent.md
+- https://docs.composio.dev/examples/tool-generator.md
+- https://docs.composio.dev/examples/vercel-chat.md
+
+## API Reference
+
+- https://docs.composio.dev/reference/authentication.md
+- https://docs.composio.dev/reference/errors.md
+- https://docs.composio.dev/reference.md
+- https://docs.composio.dev/reference/rate-limits.md
+- https://docs.composio.dev/reference/api-reference/auth-configs.md
+- https://docs.composio.dev/reference/api-reference/authentication.md
+- https://docs.composio.dev/reference/api-reference/connected-accounts.md
+- https://docs.composio.dev/reference/api-reference/files.md
+- https://docs.composio.dev/reference/api-reference/mcp.md
+- https://docs.composio.dev/reference/api-reference/migration.md
+- https://docs.composio.dev/reference/api-reference/projects.md
+- https://docs.composio.dev/reference/api-reference/tool-router.md
+- https://docs.composio.dev/reference/api-reference/toolkits.md
+- https://docs.composio.dev/reference/api-reference/tools.md
+- https://docs.composio.dev/reference/api-reference/triggers.md
+- https://docs.composio.dev/reference/sdk-reference/python/auth-configs.md
+- https://docs.composio.dev/reference/sdk-reference/python/composio.md
+- https://docs.composio.dev/reference/sdk-reference/python/connected-accounts.md
+- https://docs.composio.dev/reference/sdk-reference/python.md
+- https://docs.composio.dev/reference/sdk-reference/python/mcp.md
+- https://docs.composio.dev/reference/sdk-reference/python/toolkits.md
+- https://docs.composio.dev/reference/sdk-reference/python/tools.md
+- https://docs.composio.dev/reference/sdk-reference/python/triggers.md
+- https://docs.composio.dev/reference/sdk-reference/typescript/auth-configs.md
+- https://docs.composio.dev/reference/sdk-reference/typescript/composio.md
+- https://docs.composio.dev/reference/sdk-reference/typescript/connected-accounts.md
+- https://docs.composio.dev/reference/sdk-reference/typescript.md
+- https://docs.composio.dev/reference/sdk-reference/typescript/mcp.md
+- https://docs.composio.dev/reference/sdk-reference/typescript/toolkits.md
+- https://docs.composio.dev/reference/sdk-reference/typescript/tools.md
+- https://docs.composio.dev/reference/sdk-reference/typescript/triggers.md
+
+## Toolkits
+
+- https://docs.composio.dev/toolkits.md
+- https://docs.composio.dev/toolkits/premium-tools.md
+
+## Full Documentation
+
+- https://docs.composio.dev/llms-full.txt
